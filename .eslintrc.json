@@ -1,0 +1,10 @@
+{
+	"extends": ["standard", "standard-jsx"],
+	"plugins": ["prettier"],
+	"rules": {
+	  "arrow-body-style": "off",
+	  "prefer-arrow-callback": "off",
+	  "semi": ["error", "always"],
+		"quotes": ["error", "single"]
+	}
+}

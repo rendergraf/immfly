@@ -1,0 +1,30 @@
+$sm: 320px;
+$md: 768px;
+$lg: 960px;
+$xl: 1200px;
+$xl2: 1536px;
+
+$smMedia: "screen and (min-width: #{$sm})";
+$mdMedia: "screen and (min-width:  #{$md})";
+$lgMedia: "screen and (min-width:  #{$lg})";
+$xlMedia: "screen and (min-width:  #{$xl})";
+$xl2Media: "screen and (min-width: #{$xl2})";
+$breakpoints: ($smMedia, $mdMedia, $lgMedia, $xlMedia, $xl2Media);
+
+/* Fonts size */
+$fontSizeBase: 16px;
+
+/* Sizes */
+$fontXs: 0.75rem;
+$fontSm: 0.875rem;
+$fontMd: 1rem;
+$fontLg: 1.125rem;
+$fontXl: 1.25rem;
+$font2xl: 1.5rem;
+$font3xl: 1.875rem;
+$font4xl: 2.25rem;
+$font5xl: 3rem;
+$font6xl: 3.75rem;
+
+$gutterY: 2rem;
+$gutterX: 2rem;
